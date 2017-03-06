@@ -13,8 +13,8 @@ class PrimeFactorController
     public function powerOfTwo()
     {
         $number = Input::get('number', 0);
-        $primeFactor = new PowerOfNumber(2);
-        $decomposition = $primeFactor->decomposition($number);
+        $powerOf = new PowerOfNumber(2);
+        $decomposition = $powerOf->decomposition($number);
         $result = ['number' => (int)$number, 'decomposition' => $decomposition];
 
         return $result;

@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/ping', function () {
     return  array('alive' => true);
 });
+
+Route::get('/primeFactors', 'PrimeFactorController@powerOfTwo');

@@ -14,4 +14,9 @@ class WebController
     {
         return view('readme');
     }
+
+    public function astroport()
+    {
+        return view('astroport');
+    }
 }

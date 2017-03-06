@@ -19,6 +19,8 @@ Route::get('/ping', function () {
     return  ['alive' => true];
 });
 
+Route::get('/primeFactors', 'PrimeFactorController@powerOfTwo');
+
 Route::get(
     '/minesweeper',
     [
@@ -26,6 +28,7 @@ Route::get(
         'uses' => 'WebController@index',
     ]
 );
+
 
 Route::get(
     '/readme',
@@ -35,3 +38,10 @@ Route::get(
     ]
 );
 
+Route::get(
+    '/astroport',
+    [
+        'as' => 'astroport',
+        'uses' => 'WebController@astroport',
+    ]
+);

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/superfuds-admin.iml" filepath="$PROJECT_DIR$/superfuds-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artisans-playground.iml" filepath="$PROJECT_DIR$/artisans-playground.iml" />
     </modules>
   </component>
 </project>

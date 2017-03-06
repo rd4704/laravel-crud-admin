@@ -27,7 +27,12 @@ html, body {
     top: 18px;
 }
 
-.content {
+.c-me {
+    text-align: center;
+}
+
+.c-me > p {
+    font-size: 125px;
     text-align: center;
 }
 

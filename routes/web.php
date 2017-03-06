@@ -26,3 +26,12 @@ Route::get(
         'uses' => 'WebController@index',
     ]
 );
+
+
+Route::get(
+    '/astroport',
+    [
+        'as' => 'astroport',
+        'uses' => 'WebController@astroport',
+    ]
+);

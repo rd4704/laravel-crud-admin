@@ -26,3 +26,12 @@ Route::get(
         'uses' => 'WebController@index',
     ]
 );
+
+Route::get(
+    '/readme',
+    [
+        'as' => 'readme',
+        'uses' => 'WebController@readme',
+    ]
+);
+

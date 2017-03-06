@@ -9,4 +9,9 @@ class WebController
     {
         return view('minesweeper');
     }
+
+    public function readme()
+    {
+        return view('readme');
+    }
 }

@@ -31,6 +31,14 @@ Route::get(
 
 
 Route::get(
+    '/readme',
+    [
+        'as' => 'readme',
+        'uses' => 'WebController@readme',
+    ]
+);
+
+Route::get(
     '/astroport',
     [
         'as' => 'astroport',

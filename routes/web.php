@@ -19,6 +19,8 @@ Route::get('/ping', function () {
     return  ['alive' => true];
 });
 
+Route::get('/primeFactors', 'PrimeFactorController@powerOfTwo');
+
 Route::get(
     '/minesweeper',
     [

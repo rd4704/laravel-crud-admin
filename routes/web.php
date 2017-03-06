@@ -16,7 +16,15 @@ Route::get('/', function () {
 });
 
 Route::get('/ping', function () {
-    return  array('alive' => true);
+    return  ['alive' => true];
 });
 
 Route::get('/primeFactors', 'PrimeFactorController@powerOfTwo');
+
+Route::get(
+    '/minesweeper',
+    [
+        'as' => 'minesweeper',
+        'uses' => 'WebController@index',
+    ]
+);

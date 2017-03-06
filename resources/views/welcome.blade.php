@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="title m-b-md">
-        Hello Yose
+        <h1>Hello Yose</h1>
     </div>
 
     <div class="links">

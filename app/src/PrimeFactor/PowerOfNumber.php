@@ -22,7 +22,7 @@ class PowerOfNumber
      */
     public function decomposition($number)
     {
-        $logOfPower = log($number, $this->exponentiation);
+        $logOfPower = (int)log($number, $this->exponentiation);
         $result = [];
         for ($i = 0; $i < $logOfPower; $i++) {
             $result[] = $this->exponentiation;

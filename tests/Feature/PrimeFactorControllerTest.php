@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: abidul.rmdn
- * Date: 07/03/2017
- * Time: 2:49 PM
- */
 
 namespace Tests\Unit;
 

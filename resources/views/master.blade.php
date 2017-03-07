@@ -17,6 +17,8 @@
     @else
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet" type="text/css">
     @endif
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="flex-center position-ref full-height">

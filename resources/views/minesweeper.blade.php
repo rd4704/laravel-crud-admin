@@ -16,4 +16,36 @@
             </div>
         @endfor
     </div>
+
+    <script type="text/javascript">
+
+        var dummyData = [
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'bomb' , 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+            ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
+        ];
+
+        load(dummyData);
+
+        function load(data) {
+            for (var i=0; i<data.length; i++) {
+                for (var j=0; j<data[i].length; j++) {
+                    $('#cell-' + (i+1) + 'x' + (j+1)).text(data[i][j]);
+                }
+            }
+        }
+
+        $( ".Grid-cell" ).on( "click", function() {
+            if($(this).text() === 'bomb') {
+                $(this).addClass('lost');
+            }
+        });
+
+    </script>
 @stop
+

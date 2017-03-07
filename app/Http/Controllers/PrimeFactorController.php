@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Input;
 use App\src\PrimeFactor\PowerOfNumber;
+use Mockery\CountValidator\Exception;
 
 class PrimeFactorController
 {
@@ -12,12 +13,15 @@ class PrimeFactorController
      */
     public function powerOfTwo()
     {
-        $number = Input::get('number', 0);
-        $powerOf = new PowerOfNumber(2);
-        $decomposition = $powerOf->decomposition($number);
-        $result = ['number' => (int)$number, 'decomposition' => $decomposition];
+        try {
+            $number = Input::get('number', 0);
+            $powerOf = new PowerOfNumber(2);
+            $decomposition = $powerOf->decomposition($number);
+        } catch (Exception $e) {
+            return ['number' => (int)$number, 'error' => $e->getMessage()];
+        }
 
-        return $result;
+        return ['number' => (int)$number, 'decomposition' => $decomposition];
     }
 
 }

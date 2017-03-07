@@ -28,3 +28,28 @@ Route::get(
         'uses' => 'WebController@index',
     ]
 );
+
+
+Route::get(
+    '/readme',
+    [
+        'as' => 'readme',
+        'uses' => 'WebController@readme',
+    ]
+);
+
+Route::get(
+    '/astroport',
+    [
+        'as' => 'astroport',
+        'uses' => 'WebController@astroport',
+    ]
+);
+
+Route::get(
+    '/contact',
+    [
+        'as' => 'contact',
+        'uses' => 'WebController@contact',
+    ]
+);

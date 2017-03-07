@@ -1,7 +1,7 @@
 <?php
 namespace App\src\PrimeFactor;
 
-use Mockery\CountValidator\Exception;
+use Exception;
 
 class PowerOfNumber
 {

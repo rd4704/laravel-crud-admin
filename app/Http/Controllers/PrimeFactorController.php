@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Support\Facades\Input;
 use App\src\PrimeFactor\PowerOfNumber;
-use Mockery\CountValidator\Exception;
 
 class PrimeFactorController
 {

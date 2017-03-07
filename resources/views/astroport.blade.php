@@ -24,5 +24,4 @@
             <button id="dock" class="btn">Dock</button>
         </div>
     </div>
-    <script src="/js/main.js"></script>
 @stop

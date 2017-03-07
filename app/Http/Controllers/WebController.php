@@ -24,4 +24,9 @@ class WebController
     {
         return view('contact');
     }
+
+    public function dock()
+    {
+        return view('dock');
+    }
 }

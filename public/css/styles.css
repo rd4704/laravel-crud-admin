@@ -163,3 +163,17 @@ html, body {
         flex: 0 0 25%
     }
 }
+
+.block {
+    padding: 20px 15px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 10px;
+}
+.mar-top {
+    margin-top: 30px;
+}
+.bg {
+    background: #C7E4A9;
+    padding: 10px;
+}

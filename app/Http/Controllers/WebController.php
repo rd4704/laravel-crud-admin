@@ -19,4 +19,9 @@ class WebController
     {
         return view('astroport');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }

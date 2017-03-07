@@ -44,16 +44,27 @@ html, body {
     margin: 10px 0;
     font-size: 110px;
     color: #ff7f7f;
+    text-align: center;
 }
 
 .links > a {
     color: #636b6f;
     padding: 0 25px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+#ping-challenge-link {
+    border-right: 1px #636b6f solid;
+    border-left: 1px #636b6f solid;
+}
+
+.links > a:hover {
+    color: #ddd;
+    transition: .1s ease-in;
 }
 
 .m-b-md {

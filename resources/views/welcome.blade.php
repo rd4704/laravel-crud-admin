@@ -9,6 +9,7 @@
         <a id="contact-me-link" class="contact-link" href="{{secure_url('/contact')}}">Contact me</a>
         <a id="ping-challenge-link" href="{{secure_url("/ping")}}">Ping Challenge Link</a>
         <a id="repository-link" href="{{secure_url("/readme")}}">Read me</a>
-        <a href="{{secure_url("/dock")}}">Docker</a>
+        <a id="minesweeper" href="{{secure_url("/minesweeper")}}">Minesweeper</a>
+        <a href="{{url("/dock")}}">Docker</a>
     </div>
 @stop

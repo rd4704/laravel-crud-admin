@@ -66,6 +66,10 @@ html, body {
     border-right: 1px #636b6f solid;
 }
 
+#minesweeper {
+    border-right: 1px #636b6f solid;
+}
+
 .links > a:hover {
     color: #ddd;
     transition: .1s ease-in;

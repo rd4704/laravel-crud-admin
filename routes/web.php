@@ -53,3 +53,11 @@ Route::get(
         'uses' => 'WebController@contact',
     ]
 );
+
+Route::get(
+    '/dock',
+    [
+        'as' => 'dock',
+        'uses' => 'WebController@dock',
+    ]
+);

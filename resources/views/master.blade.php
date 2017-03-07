@@ -24,6 +24,7 @@
 <div class="flex-center position-ref full-height">
     <div class="content">
         @yield('content')
+        @yield('contact')
     </div>
 </div>
 </body>

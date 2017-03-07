@@ -45,3 +45,11 @@ Route::get(
         'uses' => 'WebController@astroport',
     ]
 );
+
+Route::get(
+    '/contact',
+    [
+        'as' => 'contact',
+        'uses' => 'WebController@contact',
+    ]
+);

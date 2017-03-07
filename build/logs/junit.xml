@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" failures="0" errors="0" time="1.382546">
+    <testsuite name="Feature Tests" tests="1" assertions="1" failures="0" errors="0" time="1.350060">
+      <testsuite name="Tests\Feature\ExampleTest" file="/home/yazan/project/artisans-playground/tests/Feature/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="1.350060">
+        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" file="/home/yazan/project/artisans-playground/tests/Feature/ExampleTest.php" line="17" assertions="1" time="1.350060"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Unit Tests" tests="1" assertions="1" failures="0" errors="0" time="0.032486">
+      <testsuite name="Tests\Unit\ExampleTest" file="/home/yazan/project/artisans-playground/tests/Unit/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.032486">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="/home/yazan/project/artisans-playground/tests/Unit/ExampleTest.php" line="16" assertions="1" time="0.032486"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

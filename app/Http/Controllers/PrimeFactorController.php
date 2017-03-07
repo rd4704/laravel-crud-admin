@@ -18,7 +18,7 @@ class PrimeFactorController
             $powerOf = new PowerOfNumber(2);
             $decomposition = $powerOf->decomposition($number);
         } catch (Exception $e) {
-            return ['number' => (int)$number, 'error' => $e->getMessage()];
+            return ['number' => $number, 'error' => $e->getMessage()];
         }
 
         return ['number' => (int)$number, 'decomposition' => $decomposition];

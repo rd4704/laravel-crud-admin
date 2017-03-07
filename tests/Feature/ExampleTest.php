@@ -20,4 +20,19 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function testPing()
+    {
+        $response = $this->get('/ping');
+
+        $response->assertJson(['alive' => true]);
+    }
+
+    public function testContact()
+    {
+        $response = $this->get('/contact');
+
+        $response->assertSee(('me'));
+    }
+
 }

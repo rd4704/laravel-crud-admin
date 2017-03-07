@@ -30,9 +30,10 @@
             ['empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty', 'empty'],
         ];
 
-        load(dummyData);
+        load();
 
-        function load(data) {
+        function load() {
+            data = (document.grid !== undefined) ? document.grid : dummyData;
             for (var i=0; i<data.length; i++) {
                 for (var j=0; j<data[i].length; j++) {
                     $('#cell-' + (i+1) + 'x' + (j+1)).text(data[i][j]);

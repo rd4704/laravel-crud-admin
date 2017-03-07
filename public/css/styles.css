@@ -1,0 +1,165 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.c-me {
+    text-align: center;
+}
+
+.c-me > p {
+    font-size: 125px;
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.title h1 {
+    margin: 10px 0;
+    font-size: 110px;
+    color: #ff7f7f;
+    text-align: center;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#ping-challenge-link {
+    border-right: 1px #636b6f solid;
+    border-left: 1px #636b6f solid;
+}
+
+.links > a:hover {
+    color: #ddd;
+    transition: .1s ease-in;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.Grid {
+    display: flex;
+}
+
+.Grid-cell {
+    flex: 1;
+}
+
+/* With gutters */
+.Grid--gutters {
+    margin: -1em 0 0 -1em;
+}
+.Grid--gutters > .Grid-cell {
+    padding: 1em 0 0 1em;
+}
+
+/* Alignment per row */
+.Grid--top {
+    align-items: flex-start;
+}
+.Grid--bottom {
+    align-items: flex-end;
+}
+.Grid--center {
+    align-items: center;
+}
+
+/* Alignment per cell */
+.Grid-cell--top {
+    align-self: flex-start;
+}
+.Grid-cell--bottom {
+    align-self: flex-end;
+}
+.Grid-cell--center {
+    align-self: center;
+}
+
+/* Base classes for all media */
+.Grid--fit > .Grid-cell {
+    flex: 1;
+}
+.Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+}
+.Grid--1of2 > .Grid-cell {
+    flex: 0 0 50%
+}
+.Grid--1of3 > .Grid-cell {
+    flex: 0 0 33.3333%
+}
+.Grid--1of4 > .Grid-cell {
+    flex: 0 0 25%
+}
+
+/* Small to medium screens */
+@media (min-width: 24em) {
+    .small-Grid--fit > .Grid-cell {
+        flex: 1;
+    }
+    .small-Grid--full > .Grid-cell {
+        flex: 0 0 100%;
+    }
+    .small-Grid--1of2 > .Grid-cell {
+        flex: 0 0 50%
+    }
+    .small-Grid--1of3 > .Grid-cell {
+        flex: 0 0 33.3333%
+    }
+    .small-Grid--1of4 > .Grid-cell {
+        flex: 0 0 25%
+    }
+}
+
+/* Large screens */
+@media (min-width: 48em) {
+    .large-Grid--fit > .Grid-cell {
+        flex: 1;
+    }
+    .large-Grid--full > .Grid-cell {
+        flex: 0 0 100%;
+    }
+    .large-Grid--1of2 > .Grid-cell {
+        flex: 0 0 50%
+    }
+    .large-Grid--1of3 > .Grid-cell {
+        flex: 0 0 33.3333%
+    }
+    .large-Grid--1of4 > .Grid-cell {
+        flex: 0 0 25%
+    }
+}

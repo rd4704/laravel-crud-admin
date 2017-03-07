@@ -62,6 +62,10 @@ html, body {
     border-left: 1px #636b6f solid;
 }
 
+#repository-link {
+    border-right: 1px #636b6f solid;
+}
+
 .links > a:hover {
     color: #ddd;
     transition: .1s ease-in;
